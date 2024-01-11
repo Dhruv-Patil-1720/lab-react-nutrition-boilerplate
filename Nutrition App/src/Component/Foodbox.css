@@ -1,0 +1,46 @@
+.box{
+    min-width: 500px;
+    width: fit-content;
+    background-color: rgb(201, 201, 201);
+    margin: 10px;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.field{
+    display: inline-flex;
+}
+img{
+    width: 110px;
+}
+.main{
+    display: flex;
+    gap: 30px;
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset{
+    width: 100px;
+    height: fit-content;
+    background-color: grey;
+    color: white;
+ 
+    
+}
+.Reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+    border: 3px solid purple;
+}
+.button-is-info{
+    background-color: plum;
+}
